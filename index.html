@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kieswijzer - JSVU</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      href="resources/logo-utrechtse-bedrijvendag-2025-wit-transparant-1.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="start-screen">
+      <button id="startScreenHomeButton" class="home-button">
+        <i class="fa fa-arrow-left fa-2x"></i>Terug naar website
+      </button>
+      <header>
+        <h1>Kieswijzer Utrechtse Bedrijvendag 2025</h1>
+      </header>
+      <p>Klik op start om de Kieswijzer te beginnen.</p>
+      <button id="startButton">Start</button>
+    </div>
+    <main></main>
+    <div class="question-number-overlay"></div>
+    <div class="question-navigation"></div>
+    <button id="homeButton" class="home-button">
+      <i class="fa fa-home fa-2x"></i>
+    </button>
+    <div id="loading" class="loading" style="display: none">
+      <p>Resultaten berekenen...</p>
+    </div>
+    <div id="results" class="results" style="display: none">
+      <button id="endScreenHomeButton" class="home-button">
+        <i class="fa fa-arrow-left fa-2x"></i>Terug naar website
+      </button>
+      <h1 class="desktop-header">Jouw top 10 matches</h1>
+      <p class="desktop-header">Klik op een bedrijf voor meer informatie.</p>
+      <h2 class="mobile-header">Jouw top 3 matches</h2>
+      <p class="mobile-header" style="font-size: x-small">
+        Klik op een bedrijf voor meer informatie.
+      </p>
+      <div id="top-3-results" class="top-results"></div>
+      <div id="other-results" class="other-results"></div>
+      <h2>Tot op vrijdag 7 maart!</h2>
+    </div>
+    <script src="questionGenerator.js"></script>
+    <script src="matchCalculator.js"></script>
+  </body>
+</html>

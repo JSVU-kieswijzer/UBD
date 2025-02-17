@@ -1,0 +1,135 @@
+[
+  {
+    "text": "Ik vind het belangrijk dat de instantie sociale rechtshulp verleent",
+    "type": "multiple-choice",
+    "answers": ["Zeer oneens", "Oneens", "Neutraal", "Eens", "Zeer eens"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  },
+  {
+    "text": "Ik vind het belangrijk dat de instantie internationaal gericht is",
+    "type": "multiple-choice",
+    "answers": ["Zeer oneens", "Oneens", "Neutraal", "Eens", "Zeer eens"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  },
+  {
+    "text": "De instantie moet deze grootte hebben",
+    "type": "multiple-choice",
+    "answers": ["Klein", "Middel", "Groot"],
+    "maxSelections": 1,
+    "calculation": "exact"
+  },
+  {
+    "text": "Ik ben geïnteresseerd in deze rechtsgebieden?",
+    "subtext": "Er zijn meerdere antwoorden mogelijk.",
+    "type": "multiple-choice",
+    "answers": [
+      "Aanbestedingsrecht",
+      "Aansprakelijkheids- en verzekeringsrecht",
+      "Arbeidsrecht",
+      "Arbitrage en mediation",
+      "Banking and finance",
+      "Bouwrecht en vastgoed",
+      "Bestuursrecht",
+      "Staatrecht",
+      "Europees recht",
+      "Gezondheidsrecht",
+      "Familie- en erfrecht",
+      "Fiscaalrecht",
+      "ICT en privacy",
+      "Insolventie en herstructurering",
+      "Intellectueel eigendomsrecht",
+      "Letselschade",
+      "Litigation",
+      "Handelsrecht",
+      "Maritiem recht",
+      "Milieurecht",
+      "Notarieel recht",
+      "Ondernemingsrecht",
+      "Strafrecht",
+      "Transportrecht",
+      "Civiel recht",
+      "Full Service"
+    ],
+    "maxSelections": 26,
+    "calculation": "multiple"
+  },
+  {
+    "text": "De instantie moet een eigen opleidingsinstituut hebben",
+    "type": "multiple-choice",
+    "answers": ["Eens", "Oneens"],
+    "maxSelections": 1,
+    "calculation": "exact"
+  },
+  {
+    "text": "De instantie moet onderdeel zijn van de Law Firm School",
+    "type": "multiple-choice",
+    "answers": ["Eens", "Oneens"],
+    "maxSelections": 1,
+    "calculation": "exact"
+  },
+  {
+    "text": "De instantie moet een sectiewissel hebben",
+    "type": "multiple-choice",
+    "answers": ["Eens", "Oneens"],
+    "maxSelections": 1,
+    "calculation": "exact"
+  },
+  {
+    "text": "Binnen de instantie moet veel interactie tussen de secties en afdelingen zijn",
+    "type": "multiple-choice",
+    "answers": ["Zeer oneens", "Oneens", "Neutraal", "Eens", "Zeer eens"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  },
+  {
+    "text": "Ik wil als beginnende werknemer meteen fulltime aan de slag",
+    "type": "multiple-choice",
+    "answers": ["Zeer oneens", "Oneens", "Neutraal", "Eens", "Zeer eens"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  },
+  {
+    "text": "Binnen de instantie moet iedereen elkaar kennen",
+    "type": "multiple-choice",
+    "answers": ["Zeer oneens", "Oneens", "Neutraal", "Eens", "Zeer eens"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  },
+  {
+    "text": "Als beginnend advocaat/jurist wil ik veel eigen verantwoordelijkheid",
+    "type": "multiple-choice",
+    "answers": ["Zeer oneens", "Oneens", "Neutraal", "Eens", "Zeer eens"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  },
+  {
+    "text": "Ik zoek de volgende stagemogelijkheid",
+    "type": "multiple-choice",
+    "answers": ["Fulltime", "Parttime", "Beide"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  },
+  {
+    "text": "Ik zoek een werkplek die er zo uit ziet",
+    "type": "multiple-choice",
+    "answers": ["Eigen werkplek", "Flex werkplek", "Kantoortuin"],
+    "maxSelections": 1,
+    "calculation": "exact"
+  },
+  {
+    "text": "Hier wil ik het liefst werken",
+    "type": "multiple-choice",
+    "answers": ["De Randstad", "Niet in de Randstad"],
+    "maxSelections": 1,
+    "calculation": "exact"
+  },
+  {
+    "text": "De instantie moet veel doorgroeimogelijkheden hebben",
+    "type": "multiple-choice",
+    "answers": ["Zeer oneens", "Oneens", "Neutraal", "Eens", "Zeer eens"],
+    "maxSelections": 1,
+    "calculation": "weighted"
+  }
+]
